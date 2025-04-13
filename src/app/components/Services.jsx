@@ -1,5 +1,5 @@
 import React from 'react';
-import { Utensils, Scale, Heart, Users, Calendar, LineChart as ChartLine, Apple, BookOpen } from 'lucide-react';
+import { Apple, Scale, Heart, Users, Calendar, LineChart as ChartLine, Utensils, BookOpen } from 'lucide-react';
 import { ServiceCard } from './ServiceCard';
 
 export function Services() {
@@ -47,16 +47,22 @@ export function Services() {
 	];
 
 	return (
-		<div id="services" className="py-16 bg-gray-50">
+		<div id="services" className="py-24 bg-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<h2 className="text-3xl font-bold text-center mb-4">Onze Diensten</h2>
-				<p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-					Wij bieden uitgebreide voedingscoaching en begeleiding om je te helpen bij het bereiken
-					van jouw persoonlijke gezondheidsdoelen.
-				</p>
+				<div className="text-center max-w-3xl mx-auto mb-16">
+					<h2 className="text-4xl font-bold mb-6 text-gray-900">Onze Diensten</h2>
+					<p className="text-xl text-gray-600">
+						Ontdek ons uitgebreide aanbod aan voedingscoaching diensten, speciaal ontwikkeld om jou
+						te helpen bij het bereiken van jouw persoonlijke gezondheidsdoelen.
+					</p>
+				</div>
 				<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 					{services.map((service, index) => (
-						<ServiceCard key={index} {...service} />
+						<div key={index} className="bg-orange-50 p-8 rounded-3xl hover:bg-orange-100 transition-colors duration-300">
+							<div className="text-orange-600 mb-4">{service.icon}</div>
+							<h3 className="text-xl font-semibold mb-3 text-gray-900">{service.title}</h3>
+							<p className="text-gray-600">{service.description}</p>
+						</div>
 					))}
 				</div>
 			</div>
