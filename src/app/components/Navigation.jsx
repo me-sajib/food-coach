@@ -11,7 +11,7 @@ export function Navigation() {
 				<div className="flex items-center justify-between h-20">
 					<div className="flex items-center">
 						<Utensils className="h-8 w-8 text-orange-600" />
-						<span className="ml-2 text-2xl font-bold text-gray-900">Voedings coach BMH</span>
+						<span className="ml-2 text-2xl font-bold text-gray-900">Voedings coach FRL FRL</span>
 					</div>
 
 					{/* Desktop Menu */}
