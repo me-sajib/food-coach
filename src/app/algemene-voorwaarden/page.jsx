@@ -1,91 +1,162 @@
-import React from 'react'
-import { Footer } from '../components/Footer'
-import { Navigation } from '../components/Navigation'
+import React from 'react';
+import { Navigation } from '../components/Navigation';
+import { Footer } from '../components/Footer';
+import { Scroll, Shield, Clock, FileCheck } from 'lucide-react';
 
-export default function page() {
+export default function TermsAndConditions() {
 	return (
 		<div className="min-h-screen bg-white">
 			<Navigation />
-			<div className="max-w-4xl mx-auto px-4 py-16">
-				<h1 className="text-3xl font-bold mb-8">Algemene Voorwaarden</h1>
-
-				<div className="prose prose-lg">
-					<h2 className="text-2xl font-semibold mb-4">Inleiding</h2>
-					<p className="mb-6">
-						Welkom bij VoedingsCoach BMH. Door gebruik te maken van onze coachingdiensten, gaat u akkoord met de onderstaande algemene voorwaarden. Deze voorwaarden zijn van toepassing op alle coachingservices die worden aangeboden door VoedingsCoach BMH, gevestigd in Nederland.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">1. Identiteit van de Dienstverlener</h3>
-					<p className="mb-6">
-						VoedingsCoach BMH is een praktijk die zich richt op het begeleiden van mensen naar een gezondere, positievere en doelgerichte levensstijl. Wij bieden persoonlijke ondersteuning via telefonische sessies, videogesprekken en 1-op-1 ontmoetingen. De begeleiding wordt verzorgd door Sinem Betul Emral, oprichter en eigenaar van VoedingsCoach BMH.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">2. Diensten</h3>
-					<p className="mb-6">
-						VoedingsCoach BMH biedt ondersteuning op het gebied van voeding, gezondheid, mindset en persoonlijke ontwikkeling. Wij helpen bij het opstellen van voedingsplannen, het bereiken van gezondheidsdoelen en het ontwikkelen van gezonde eetgewoontes. De sessies worden gehouden via telefoon, videocall of persoonlijke 1-op-1 afspraken.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">3. Sessie-informatie</h3>
-					<p className="mb-6">
-						Elke sessie wordt gehouden via telefoon, videogesprek of in een persoonlijke 1-op-1 setting. De duur van een sessie is variabel, maar meestal tussen de 30 en 60 minuten. De kosten worden per minuut of per sessie berekend, afhankelijk van het afgesproken tarief. Na afloop ontvangt de klant een factuur en betaalverzoek, welke binnen de gestelde termijn moet worden voldaan.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">4. Betaling</h3>
-					<p className="mb-6">
-						De coaching wordt gefactureerd per minuut. De klant ontvangt na elke sessie een factuur, die een betaalverzoek bevat. Betalingen kunnen worden gedaan via de beschikbare betaalmethoden, zoals iDeal, creditcard of andere beschikbare opties. Betaling dient te worden voldaan na ontvangst van de factuur en het betaalverzoek.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">5. Annulering en Verzetting</h3>
-					<p className="mb-6">
-						Indien een klant een geplande sessie niet kan bijwonen, dient de klant minimaal 24 uur van tevoren contact op te nemen om een andere afspraak in te plannen. Indien een sessie binnen 24 uur wordt geannuleerd, behouden wij ons het recht voor om het volledige bedrag voor de geplande sessie in rekening te brengen. In geval van no-show, wordt de sessie volledig gefactureerd.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">6. Vertrouwelijkheid</h3>
-					<p className="mb-6">
-						VoedingsCoach BMH behandelt alle klantinformatie vertrouwelijk. Tijdens de coaching sessies kunnen persoonlijke gegevens en vertrouwelijke informatie gedeeld worden. Deze informatie zal niet zonder toestemming van de klant worden gedeeld met derden, tenzij wettelijk verplicht.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">7. Aansprakelijkheid</h3>
-					<p className="mb-6">
-						VoedingsCoach BMH is niet aansprakelijk voor schade, verlies of letsel die voortkomt uit de coaching sessies, tenzij sprake is van opzet of grove nalatigheid. De klant is zelf verantwoordelijk voor het implementeren van de geboden adviezen en voor het nemen van beslissingen op basis van de coaching.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">8. Intellectuele Eigendom</h3>
-					<p className="mb-6">
-						Alle materialen, documenten, en inhoud verstrekt door VoedingsCoach BMH zijn beschermd door auteursrechten en mogen niet zonder schriftelijke toestemming worden gedeeld, verspreid of gekopieerd.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">9. Wijzigingen in de Algemene Voorwaarden</h3>
-					<p className="mb-6">
-						VoedingsCoach BMH behoudt zich het recht voor om deze algemene voorwaarden op elk moment te wijzigen. Wijzigingen worden tijdig via de website van VoedingsCoach BMH en per e-mail aan klanten bekendgemaakt.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">10. Toepasselijk Recht</h3>
-					<p className="mb-6">
-						Op deze algemene voorwaarden is Nederlands recht van toepassing. Eventuele geschillen die voortvloeien uit of verband houden met deze voorwaarden zullen exclusief worden voorgelegd aan de bevoegde rechter in Nederland.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">11. Klachten en Geschillen</h3>
-					<p className="mb-6">
-						Indien u ontevreden bent over de geleverde coaching of een andere dienst, kunt u een klacht indienen via het contactformulier op onze website of per e-mail naar info@VoedingsCoach.nl. Wij zullen elke klacht zorgvuldig onderzoeken en proberen tot een oplossing te komen.
-					</p>
-
-					<h3 className="text-xl font-semibold mb-3">12. Contactinformatie</h3>
-					<div className="mb-6">
-						<p>VoedingsCoach BMH</p>
-						<p>Workum Buterikkers 33</p>
-						<p>Hoofdvestiging</p>
-						<p>E-mail: info@VoedingsCoach.nl</p>
-						<p>KVK: 96951362</p>
+			{/* Hero Section */}
+			<div className="bg-orange-100 py-16">
+				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<div className="max-w-3xl mx-auto text-center">
+						<h1 className="text-4xl font-bold text-gray-900 mb-4">Algemene Voorwaarden</h1>
+						<p className="text-lg text-gray-600">
+							Transparant en duidelijk: onze afspraken voor een succesvolle samenwerking
+						</p>
 					</div>
-
-					<p className="mt-8">
-						Door gebruik te maken van onze diensten gaat u akkoord met de bovenstaande algemene voorwaarden.
-						Wij danken u voor uw vertrouwen in VoedingsCoach BMH en kijken ernaar uit om samen met u aan uw persoonlijke groei te werken!
-					</p>
 				</div>
 			</div>
+
+			{/* Quick Info Cards */}
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8">
+				<div className="grid md:grid-cols-4 gap-6">
+					<div className="bg-white rounded-xl p-6 shadow-lg">
+						<Scroll className="h-8 w-8 text-orange-500 mb-4" />
+						<h3 className="font-semibold text-gray-900">Duidelijke Afspraken</h3>
+						<p className="text-sm text-gray-600 mt-2">Heldere voorwaarden voor optimale samenwerking</p>
+					</div>
+					<div className="bg-white rounded-xl p-6 shadow-lg">
+						<Shield className="h-8 w-8 text-orange-500 mb-4" />
+						<h3 className="font-semibold text-gray-900">Privacy Gewaarborgd</h3>
+						<p className="text-sm text-gray-600 mt-2">Uw gegevens zijn veilig bij ons</p>
+					</div>
+					<div className="bg-white rounded-xl p-6 shadow-lg">
+						<Clock className="h-8 w-8 text-orange-500 mb-4" />
+						<h3 className="font-semibold text-gray-900">Flexibele Planning</h3>
+						<p className="text-sm text-gray-600 mt-2">Afspraken op uw tempo</p>
+					</div>
+					<div className="bg-white rounded-xl p-6 shadow-lg">
+						<FileCheck className="h-8 w-8 text-orange-500 mb-4" />
+						<h3 className="font-semibold text-gray-900">Kwaliteitsgarantie</h3>
+						<p className="text-sm text-gray-600 mt-2">Professionele begeleiding</p>
+					</div>
+				</div>
+			</div>
+
+			{/* Main Content */}
+			<div className="max-w-4xl mx-auto px-4 py-16">
+				<div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+					<div className="prose prose-orange max-w-none">
+						<h2 className="text-3xl font-bold text-gray-900 mb-8">Welkom bij VoedingsCoach</h2>
+
+						<div className="space-y-12">
+							<section>
+								<h3 className="text-2xl font-semibold text-gray-900 mb-4">1. Over VoedingsCoach</h3>
+								<p className="text-gray-600">
+									VoedingsCoach is uw partner in gezonde voeding en leefstijl. Wij bieden professionele
+									begeleiding bij het ontwikkelen van gezonde eetgewoontes en een evenwichtige leefstijl
+									via persoonlijke coaching, groepssessies en online begeleiding.
+								</p>
+							</section>
+
+							<section>
+								<h3 className="text-2xl font-semibold text-gray-900 mb-4">2. Onze Dienstverlening</h3>
+								<div className="bg-orange-50 rounded-xl p-6">
+									<ul className="list-none space-y-3">
+										<li className="flex items-center text-gray-700">
+											<span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+											Persoonlijke voedingsanalyse en advies
+										</li>
+										<li className="flex items-center text-gray-700">
+											<span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+											Op maat gemaakte voedingsplannen
+										</li>
+										<li className="flex items-center text-gray-700">
+											<span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+											Leefstijlbegeleiding
+										</li>
+										<li className="flex items-center text-gray-700">
+											<span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+											Coaching bij gewichtsmanagement
+										</li>
+										<li className="flex items-center text-gray-700">
+											<span className="w-2 h-2 bg-orange-500 rounded-full mr-3"></span>
+											Groepsworkshops over gezonde voeding
+										</li>
+									</ul>
+								</div>
+							</section>
+
+							<section>
+								<h3 className="text-2xl font-semibold text-gray-900 mb-4">3. Coaching Trajecten</h3>
+								<div className="grid md:grid-cols-2 gap-6">
+									<div className="bg-gray-50 rounded-xl p-6">
+										<h4 className="font-semibold mb-2">Duur</h4>
+										<p className="text-gray-600">3-6 maanden, flexibel in te delen</p>
+									</div>
+									<div className="bg-gray-50 rounded-xl p-6">
+										<h4 className="font-semibold mb-2">Sessies</h4>
+										<p className="text-gray-600">45-60 minuten, fysiek of online</p>
+									</div>
+								</div>
+							</section>
+
+							<section>
+								<h3 className="text-2xl font-semibold text-gray-900 mb-4">4. Tarieven en Betalingen</h3>
+								<p className="text-gray-600">
+									Onze tarieven worden vooraf duidelijk gecommuniceerd. Betaling kan per traject of per
+									sessie, met mogelijkheid tot gespreide betaling in overleg. Facturen dienen binnen 14
+									dagen te worden voldaan.
+								</p>
+							</section>
+
+							<section>
+								<h3 className="text-2xl font-semibold text-gray-900 mb-4">5. Afspraken en Annuleringen</h3>
+								<div className="bg-orange-50 rounded-xl p-6">
+									<p className="text-gray-700">
+										Kosteloos annuleren tot 48 uur voor de afspraak. Bij latere annulering of no-show
+										wordt het volledige bedrag in rekening gebracht.
+									</p>
+								</div>
+							</section>
+
+							<section>
+								<h3 className="text-2xl font-semibold text-gray-900 mb-4">6. Privacy en Bescherming</h3>
+								<p className="text-gray-600">
+									Uw privacy is onze prioriteit. Alle informatie wordt vertrouwelijk behandeld volgens
+									de AVG-wetgeving en wordt alleen gedeeld na uw expliciete toestemming.
+								</p>
+							</section>
+
+							<section>
+								<h3 className="text-2xl font-semibold text-gray-900 mb-4">7. Contactgegevens</h3>
+								<div className="bg-gray-50 rounded-xl p-6">
+									<div className="space-y-2 text-gray-700">
+										<p>VoedingsCoach BMH</p>
+										<p>Workum Buterikkers 33</p>
+										<p>Hoofdvestiging</p>
+										<p>E-mail: info@VoedingsCoach.nl</p>
+										<p>KVK: 96951362</p>
+									</div>
+								</div>
+							</section>
+						</div>
+
+						<div className="mt-12 pt-8 border-t border-gray-200">
+							<p className="text-sm text-gray-500">Laatste update: maart 2025</p>
+							<p className="mt-4 text-gray-600">
+								Door gebruik te maken van onze diensten verklaart u zich akkoord met deze algemene voorwaarden.
+								We kijken ernaar uit om u te begeleiden naar een gezondere leefstijl!
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
 			<Footer />
 		</div>
-	)
-}
+	);
+}	

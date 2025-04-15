@@ -35,20 +35,7 @@ export function About() {
 									wilt krijgen of gewoon gezonder wilt eten - wij staan voor je klaar.
 								</p>
 							</div>
-							<div className="grid grid-cols-3 gap-8 mt-12">
-								<div className="text-center">
-									<div className="text-4xl font-bold text-orange-600 mb-2">500+</div>
-									<div className="text-gray-600">Tevreden Klanten</div>
-								</div>
-								<div className="text-center">
-									<div className="text-4xl font-bold text-orange-600 mb-2">10+</div>
-									<div className="text-gray-600">Jaar Ervaring</div>
-								</div>
-								<div className="text-center">
-									<div className="text-4xl font-bold text-orange-600 mb-2">95%</div>
-									<div className="text-gray-600">Succes Rate</div>
-								</div>
-							</div>
+
 						</div>
 					</div>
 				</div>
