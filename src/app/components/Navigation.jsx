@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { Utensils, Menu, X } from 'lucide-react';
+import Link from 'next/link';
 
 export function Navigation() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,6 +21,7 @@ export function Navigation() {
 							<a href="/" className="text-gray-600 hover:text-orange-600 transition-colors font-medium">Home</a>
 							<a href="#about" className="text-gray-600 hover:text-orange-600 transition-colors font-medium">Over Ons</a>
 							<a href="#services" className="text-gray-600 hover:text-orange-600 transition-colors font-medium">Diensten</a>
+							<Link href="/blog" className="text-gray-600 hover:text-orange-600 transition-colors font-medium">Blog</Link>
 							<a href="#contact" className="bg-orange-600 text-white px-6 py-3 rounded-full hover:bg-orange-700 transition-colors font-medium">Contact</a>
 						</div>
 					</div>
