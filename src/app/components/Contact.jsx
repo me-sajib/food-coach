@@ -25,7 +25,7 @@ export function Contact() {
 							<div className="space-y-6">
 								<div className="flex items-center">
 									<MapPin className="h-6 w-6 text-orange-600" />
-									<span className="ml-3 text-gray-600">Workum Buterikkers 33 Hoofdvestlging</span>
+									<span className="ml-3 text-gray-600">Workum Buterikkers 33</span>
 								</div>
 								<div className="flex items-center">
 									<Mail className="h-6 w-6 text-orange-600" />

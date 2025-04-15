@@ -28,8 +28,6 @@ export function Footer() {
 						<h3 className="text-lg font-semibold mb-6">Links</h3>
 						<ul className="space-y-4">
 							<li><a href="/algemene-voorwaarden" className="text-gray-400 hover:text-orange-500 transition-colors">Algemene Voorwaarden</a></li>
-							<li><a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">Privacy Policy</a></li>
-							<li><a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">Cookie Policy</a></li>
 						</ul>
 					</div>
 					<div>
@@ -37,7 +35,6 @@ export function Footer() {
 						<h3 className="text-lg font-semibold mb-6">Contact Info</h3>
 						<ul className="space-y-4 text-gray-400">
 							<li>Workum Buterikkers 33</li>
-							<li>Hoofdvestlging</li>
 							<li>info@VoedingsCoach.nl</li>
 							<li>KVK: 96951362</li>
 						</ul>
