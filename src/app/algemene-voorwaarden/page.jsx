@@ -134,7 +134,7 @@ export default function TermsAndConditions() {
 								<h3 className="text-2xl font-semibold text-gray-900 mb-4">7. Contactgegevens</h3>
 								<div className="bg-gray-50 rounded-xl p-6">
 									<div className="space-y-2 text-gray-700">
-										<p>VoedingsCoach BMH</p>
+										<p>Voedings coach FRL</p>
 										<p>Workum Buterikkers 33</p>
 										<p>Hoofdvestiging</p>
 										<p>E-mail: info@VoedingsCoach.nl</p>

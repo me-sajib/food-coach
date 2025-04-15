@@ -9,7 +9,7 @@ export function Footer() {
 					<div className="col-span-2 md:col-span-1">
 						<div className="flex items-center mb-6">
 							<Utensils className="h-8 w-8 text-orange-500" />
-							<span className="ml-2 text-xl font-bold">VoedingsCoach BMH</span>
+							<span className="ml-2 text-xl font-bold">Voedings coach FRL</span>
 						</div>
 						<p className="text-gray-400">
 							Professionele voedingscoaching voor een gezondere en energiekere levensstijl.
@@ -44,7 +44,7 @@ export function Footer() {
 					</div>
 				</div>
 				<div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-					<p>&copy; 2025 VoedingsCoach BMH. Alle rechten voorbehouden.</p>
+					<p>&copy; 2025 Voedings coach FRL. Alle rechten voorbehouden.</p>
 				</div>
 			</div>
 		</footer>

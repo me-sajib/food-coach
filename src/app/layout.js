@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	title: "VoedingsCoach BMH",
+	title: "Voedings coach FRL",
 	description: "Professionele voedingscoaching voor een gezondere levensstijl.",
 };
 

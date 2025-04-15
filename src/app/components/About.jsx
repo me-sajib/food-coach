@@ -20,7 +20,7 @@ export function About() {
 							<h2 className="text-4xl font-bold text-gray-900 mb-8">Over Ons</h2>
 							<div className="space-y-6 text-lg text-gray-600">
 								<p>
-									Bij VoedingsCoach BMH geloven we dat goede voeding de sleutel is tot een
+									Bij Voedings coach FRL geloven we dat goede voeding de sleutel is tot een
 									gezond en energiek leven. Onze aanpak combineert wetenschappelijke inzichten
 									met praktische, haalbare adviezen.
 								</p>
