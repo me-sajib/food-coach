@@ -34,7 +34,7 @@ export function Footer() {
 
 						<h3 className="text-lg font-semibold mb-6">Contact Info</h3>
 						<ul className="space-y-4 text-gray-400">
-							<li>Workum Buterikkers 33</li>
+							<li>Buterikkers 33, 8711GT Workum</li>
 							<li>info@VoedingsCoach.nl</li>
 							<li>KVK: 96951362</li>
 						</ul>
